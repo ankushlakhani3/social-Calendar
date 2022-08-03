@@ -8,7 +8,7 @@ To run this web application in your machine you have to follow the bealow steps.
 
 2.move to the social-calendar directory.
 
-       cd social-calender
+        cd social-calender
   
 3. install all dependency.
 
@@ -18,6 +18,6 @@ To run this web application in your machine you have to follow the bealow steps.
 
        php artisan key:generate
    
-5. now you can start using it.
+5. Now add the port you want run this site on (default=8000).
 
-       php artisan serve
+       php artisan serve --port=3050
