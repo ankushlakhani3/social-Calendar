@@ -2,17 +2,22 @@ It is a social calendar of 2022 made in laravel 8 and using api to retrive the d
 
 To run this web application in your machine you have to follow the bealow steps.
 
-1. clone the app using following command
+1. clone the app using following command.
+
    git clone https://github.com/ankushlakhani3/social-Calendar.git
 
-2.move to the social-calendar directory
+2.move to the social-calendar directory.
+
   cd social-calender
   
-3. install all dependency
+3. install all dependency.
+
   composer install or php composer.phar install
   
-4. generate the key
+4. generate the key.
+
    php artisan key:generate
    
-5. now you can start using it
+5. now you can start using it.
+
   php artisan serve
